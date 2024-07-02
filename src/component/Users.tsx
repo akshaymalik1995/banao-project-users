@@ -14,7 +14,9 @@ export default function Users(props: { data: UsersInterface }) {
           Users
         </h1>
         {error ? (
-          <p className="text-red-500 text-center">No users found.</p>
+          <p className="text-2xl my-12 text-center">
+            No users found. Please try later.
+          </p>
         ) : (
           <div className="grid container relative mx-auto my-12 grid-cols-2 gap-8 ">
             <div className="flex col-span-1 max-w-2xl flex-col gap-4">
